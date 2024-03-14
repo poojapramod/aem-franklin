@@ -43,15 +43,32 @@ footer .footer p {
 .footer-primary .columns-wrapper .columns div:first-child strong {
   color: white;
   font-weight: 600;
+  margin-bottom: 16px;
+  display: block;
+  font-size: 14px;
 }
 
 .footer-primary .columns-wrapper .columns div:first-child strong::after {
   content: "";
   width: 100%;
-  height: 2px;
-  bacground-color: #fff;
+  height: 1px;
+  background-color: #fff;
+  opacity: 0.21;
   display: inline-block;
-  position: absoult;
-  bottom: 0;
+  position: absolute;
+  bottom: 5px;
   left: 0;
+}
+.footer-primary .columns-wrapper .columns div:last-child {
+  align-items: flex-start;
+}
+
+.footer-primary .columns-wrapper .columns div:last-child p:not(:first-child) {
+  margin-top: 0;
+}
+
+.footer-primary .columns-wrapper .columns div:last-child p {
+      margin-bottom: 0.5rem;
+    font-size: 14px;
+    color: #fff;
 }
