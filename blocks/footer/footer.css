@@ -75,4 +75,5 @@ footer .footer p {
 
 .footer-primary .columns-4-cols table tr td {
     max-width: 50%;
+      vertical-align: top;
 }
