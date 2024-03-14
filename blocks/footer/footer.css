@@ -64,7 +64,7 @@ footer .footer p {
 }
 
 .footer-primary .columns-wrapper .columns div:last-child p:not(:first-child) {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 .footer-primary .columns-wrapper .columns div:last-child p {
