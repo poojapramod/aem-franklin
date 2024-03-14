@@ -72,3 +72,7 @@ footer .footer p {
     font-size: 14px;
     color: #fff;
 }
+
+.footer-primary .columns-4-cols table tr td {
+    max-width: 50%;
+}
