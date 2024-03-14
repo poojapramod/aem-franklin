@@ -12,3 +12,30 @@ footer .footer {
 footer .footer p {
   margin: 0;
 }
+
+.footer-primary {
+    background: #9D1D27;
+}
+
+.footer-primary .default-content-wrapper h5 {
+    color: #BC3B45;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 3.6px;
+}
+
+.footer-primary .default-content-wrapper h2 {
+    color: #BC3B45;
+    font-size: 77px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 90px;
+    letter-spacing: 3.6px;
+    margin-top: 3px;
+}
+
+.footer-primary .columns-wrapper .columns div:first-child>div {
+  position:relative;
+}
