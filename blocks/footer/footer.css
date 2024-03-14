@@ -39,3 +39,19 @@ footer .footer p {
 .footer-primary .columns-wrapper .columns div:first-child>div {
   position:relative;
 }
+
+.footer-primary .columns-wrapper .columns div:first-child strong {
+  color: white;
+  font-weight: 600;
+}
+
+.footer-primary .columns-wrapper .columns div:first-child strong::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  bacground-color: #fff;
+  display: inline-block;
+  position: absoult;
+  bottom: 0;
+  left: 0;
+}
