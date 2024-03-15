@@ -70,9 +70,10 @@ footer .footer p {
 }
 
 .footer-primary .columns-wrapper .columns div:last-child p {
-      margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
     font-size: 14px;
     color: #fff;
+    padding-right: 0.8rem;
 }
 
 .footer-primary .columns-wrapper .columns div:last-child .button-container {
