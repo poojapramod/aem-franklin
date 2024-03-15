@@ -75,6 +75,18 @@ footer .footer p {
     color: #fff;
 }
 
+.footer-primary .columns-wrapper .columns div:last-child .button-container {
+  margin-bottom: 0;
+}
+
+.footer-primary .columns-wrapper .columns div:last-child .button-container a{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    font-weight: 300;
+}
+
 .footer-primary .columns-4-cols table tr td {
     max-width: 50%;
       vertical-align: top;
