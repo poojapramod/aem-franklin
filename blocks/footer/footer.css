@@ -1,11 +1,11 @@
 footer {
   padding: 2rem;
-  background-color: var(--light-color);
+  /*background-color: var(--light-color);*/
   font-size: var(--body-font-size-s);
 }
 
 footer .footer {
-  max-width: 1200px;
+/*   max-width: 1200px; */
   margin: auto;
 }
 
@@ -15,6 +15,8 @@ footer .footer p {
 
 .footer-primary {
     background: #9D1D27;
+      padding-top: 2rem;
+    padding-bottom: 3rem;
 }
 
 .footer-primary .default-content-wrapper h5 {
@@ -43,7 +45,7 @@ footer .footer p {
 .footer-primary .columns-wrapper .columns div:first-child strong {
   color: white;
   font-weight: 600;
-  margin-bottom: 16px;
+  margin-bottom: 30px;
   display: block;
   font-size: 14px;
 }
@@ -56,7 +58,7 @@ footer .footer p {
   opacity: 0.21;
   display: inline-block;
   position: absolute;
-  bottom: 5px;
+  bottom: 21px;
   left: 0;
 }
 .footer-primary .columns-wrapper .columns div:last-child {
